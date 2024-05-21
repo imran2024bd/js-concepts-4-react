@@ -1,3 +1,5 @@
+// 37-2 Template String, Arrow Function, Spread Operator
+
 const numbers = [89, 35 , 12, 98];
 const student = {
     name: 'sakib khan',
@@ -21,3 +23,20 @@ const getFiftyFive = () => 55 ;
 const addSixtyFive = num => num + 65 ;
 const isEven = x => x % 2 == 0;
 const addThree = (x , y , z) => x + y + z ;
+ const doMath = (num1 , num2) => {
+    const sum = num1 + num2 ;
+    return sum;
+ }
+
+ // spread operator
+ const newNumbers = [...numbers];
+ // create a new array from an older array and add an element
+ const currentNumbers = [...numbers , 55];
+
+ 
+ numbers.push(99);
+ numbers.push(99);
+ numbers.push(99);
+ console.log(numbers);
+ console.log(newNumbers);
+ console.log(currentNumbers);
