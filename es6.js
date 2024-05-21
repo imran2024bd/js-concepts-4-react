@@ -10,7 +10,7 @@ const student = {
 // 1. Template string
 // `` = Back tick
 
-const about = ` My Name is ${student.name} now age of ${student.age} after Three years will be ${numbers[1]} also liked movies ${student.movies[2]} and my exam score is ${numbers[3]} `;
+const about = ` My Name is ${student.name} now age of ${student.age} after Three years will be ${numbers[1]} and also liked movies ${student.movies[2]} and my exam score is ${numbers[3]} `;
 
 // console.log(about);
 
@@ -23,12 +23,13 @@ const getFiftyFive = () => 55 ;
 const addSixtyFive = num => num + 65 ;
 const isEven = x => x % 2 == 0;
 const addThree = (x , y , z) => x + y + z ;
- const doMath = (num1 , num2) => {
+const doMath = (num1 , num2) => {
     const sum = num1 + num2 ;
     return sum;
  }
 
  // spread operator
+ const numbers = [89, 35 , 12, 98];
  const newNumbers = [...numbers];
  // create a new array from an older array and add an element
  const currentNumbers = [...numbers , 55];
