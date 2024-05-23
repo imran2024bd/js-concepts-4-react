@@ -54,3 +54,5 @@ const special = products.find( prod => prod.name.includes('one'));
 
 const priceRange = products.find( pr => pr.price >= 7000);
 console.log(priceRange);
+
+
