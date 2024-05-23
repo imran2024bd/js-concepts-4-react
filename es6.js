@@ -29,7 +29,7 @@ const doMath = (num1 , num2) => {
  }
 
  // spread operator
- const numbers = [89, 35 , 12, 98];
+//  const numbers = [89, 35 , 12, 98];
  const newNumbers = [...numbers];
  // create a new array from an older array and add an element
  const currentNumbers = [...numbers , 55];
@@ -38,6 +38,15 @@ const doMath = (num1 , num2) => {
  numbers.push(99);
  numbers.push(99);
  numbers.push(99);
- console.log(numbers);
- console.log(newNumbers);
- console.log(currentNumbers);
+//  console.log(numbers);
+//  console.log(newNumbers);
+//  console.log(currentNumbers);
+
+
+const playersScore =[ 45 , 60 , 56, 63 , 89 , 90];
+
+// console.log(playersScore);
+
+const newScores = [...playersScore , 97];
+
+console.log(newScores);
