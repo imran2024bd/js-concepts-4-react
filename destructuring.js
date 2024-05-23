@@ -20,11 +20,11 @@ const [first , second]= boxify(50 , 65);
 // console.log(first , second);
 
 
-// const student = {
-//     name: 'Salib Khan',
-//     age: 32,
-//     movies: ['king khan', 'Dhakar Mastan']
-// }
+const student = {
+    name: 'Salib Khan',
+    age: 32,
+    movies: ['king khan', 'Dhakar Mastan']
+}
 
 // const [firstMovie , secondMovie] = student.movies;
 // console.log(firstMovie ,",", secondMovie);
@@ -63,6 +63,10 @@ console.log(ide , machine);
 // 02
 const {height, address} = employee.specification;
 console.log(height , address);
-
+// 03
 const {brand , price} = employee.specification.watch;
 console.log( brand , price);
+
+
+// If there is no specification then we use optional chaining question Mark ( ? )
+const {brand , price} = employee?.specification?.watch;
