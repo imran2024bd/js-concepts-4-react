@@ -1,3 +1,5 @@
+// 37-4 Array And Object Destructuring 
+
 // 1. array destructuring
 const numbers = [42, 65];
 
@@ -69,4 +71,5 @@ console.log( brand , price);
 
 
 // If there is no specification then we use optional chaining question Mark ( ? )
-const {brand , price} = employee?.specification?.watch;
+
+// const {brand , price} = employee?.specification?.watch;
