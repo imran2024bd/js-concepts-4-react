@@ -1,3 +1,7 @@
+// 37-4 Array And Object Destructuring 
+
+
+
 const products = [
     { name: 'laptop', price: 3200, brand: 'lenovo', color: 'silver' },
     { name: 'phone', price: 7000, brand: 'iphone', color: 'golden' },
