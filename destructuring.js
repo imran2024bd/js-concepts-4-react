@@ -73,7 +73,7 @@ console.log( brand , price);
 
 // If there is no specification then we use optional chaining question Mark ( ? )
 
-// const {brand , price} = employee?.specification?.watch;
+// const {brand , price} = employee?.specification?.watch;ater
 
 
 const [fst, snd , third] = employee.languages;
