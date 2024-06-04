@@ -1,5 +1,5 @@
 // 37-5 JSON, Fetch, Keys, Values, Array Add Or Remove Using Dots
-
+// JSON is JavaScript Object Notation
 
 // 01 JSON  =>  stringify , parse
 const student = {
@@ -56,7 +56,7 @@ const stObj = JSON.parse(stJSON);
     // loop on an object using for in
 
 
-    // add or remove from an array
+    // clear
 
     const products = [
     { name: 'laptop', price: 3200, brand: 'len', color: 'silver' },
@@ -74,4 +74,21 @@ const newProduct = { name:'webcam' , price: 700 , brand: 'Lal'};
 const newProducts = [...products, newProduct];
 console.log(newProducts);
 
-// creat a new array without one specific item
+const secondProduct = [...products, newProduct];
+console.log(secondProduct);
+
+// create a new array without one specific item
+// remove phone means create a new array without the phone
+
+const remaining = products.filter(product => product.name !=='phone');
+console.log(remaining);
+
+
+const remaining2 = products.filter(product => product.brand !== 'casio');
+console.log(remaining2);
+
+const removePrice = products.filter( pr => pr.price ==9000);
+console.log(removePrice);
+
+const selectColor =  products.filter ( col => col.color == 'black');
+console.log(selectColor);
