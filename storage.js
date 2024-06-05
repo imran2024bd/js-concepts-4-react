@@ -13,9 +13,9 @@ const addToLocalStorage = () =>{
     const valueInput = document.getElementById('storage-value');
     const value = valueInput.value;
     
-
-    localStorage.setItem(id,value);
-    
+if (id && value) {
+    localStorage.setItem(id,value);    
+}
     idInput.value = '';
     valueInput.value = '';
 
